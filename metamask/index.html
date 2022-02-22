@@ -218,9 +218,67 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Metamask wallet
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Metamask wallet
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-wallet" class="md-nav__link">
+    Configuring the wallet
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuring the wallet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mainnet-this-is-the-one-you-are-probably-looking-for" class="md-nav__link">
+    Mainnet (This is the one you are probably looking for)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testnet" class="md-nav__link">
+    Testnet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing-thoughts" class="md-nav__link">
+    Closing thoughts
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -246,6 +304,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-wallet" class="md-nav__link">
+    Configuring the wallet
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuring the wallet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mainnet-this-is-the-one-you-are-probably-looking-for" class="md-nav__link">
+    Mainnet (This is the one you are probably looking for)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testnet" class="md-nav__link">
+    Testnet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing-thoughts" class="md-nav__link">
+    Closing thoughts
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -259,22 +359,23 @@
 
 <h1 id="installing-and-setting-up-metamask">Installing and setting up MetaMask</h1>
 <p>MetaMask can be downloaded on Chrome and Firefox, or on iOS and Android if you’re a mobile user. For the purposes of this tutorial, 
-we’ll use the Firefox version, but the instructions will be more or less the same for every platform.</p>
+we’ll use the Chrome version, but the instructions will be more or less the same for every platform.</p>
 <p>Firstly, you’ll want to head over to the MetaMask Download page. From there, select whichever platform you’re using, and follow the steps to install it on your device. Easy!</p>
 <p>Next, follow along with the setup specified by the app. Go ahead and click Create a Wallet. Write down the backup seed phrase somewhere secret 
 (preferably not on an Internet-connected device). Without this phrase, your funds can’t be recovered if your device is damaged or lost. 
 Confirm that you’ve written them down on the next page.</p>
 <p>And that’s it! You should now see your wallet, ready to send and receive funds.</p>
-<h1 id="configuring-the-wallet">Configuring the wallet</h1>
+<p><img alt="Metamask" src="/img/metamask1.png" />{ width="480" }</p>
+<h2 id="configuring-the-wallet">Configuring the wallet</h2>
 <p>You might notice straight away that we’re still dealing with an Ethereum wallet. At best, this won’t work with Magnolia DApps. 
 At worst, you could lose funds by sending them to addresses you can’t actually use.</p>
 <p>Let’s change that. We want to access the Settings to point the wallet towards Magnolia Blockchain nodes.</p>
-<p>imagen</p>
+<p><img alt="Metamask" src="/img/metamask2.png" />{ width="480" }</p>
 <p>On the Settings page, we want to locate the Networks menu.</p>
-<p>imagen</p>
+<p><img alt="Metamask" src="/img/metamask3.png" />{ width="480" }</p>
 <p>We want to click Add Network in the top-right corner to manually add the Magnolia Blockchain one – it doesn’t come packaged with MetaMask. 
 It’s important to note that there are two networks we can use here: the testnet or the mainnet. Below are the parameters to fill in for each.</p>
-<h2 id="mainnet-this-is-the-one-you-are-probably-looking-for">Mainnet (This is the one you are probably looking for)</h2>
+<h3 id="mainnet-this-is-the-one-you-are-probably-looking-for">Mainnet (This is the one you are probably looking for)</h3>
 <table>
 <thead>
 <tr>
@@ -305,7 +406,7 @@ It’s important to note that there are two networks we can use here: the testne
 </tr>
 </tbody>
 </table>
-<h2 id="testnet">Testnet</h2>
+<h3 id="testnet">Testnet</h3>
 <table>
 <thead>
 <tr>
@@ -339,8 +440,8 @@ It’s important to note that there are two networks we can use here: the testne
 <p>We’re going to use the testnet in this tutorial, but you will likely want to use the mainnet. We recommend adding both if you intend to use MetaMask to transfer NOLIA or Magnolia tokens.</p>
 <p>Once you Save the Network and return to the main view, you’ll notice two things: the network has automatically been set to the one you just entered, 
 and the units are no longer denominated in ETH, but in NOLIA.</p>
-<p>imagen</p>
-<h1 id="closing-thoughts">Closing thoughts</h1>
+<p><img alt="Metamask" src="/img/metamask4.png" />{ width="480" }</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
 <p>MetaMask has long been the go-to passport for accessing the sprawling Ethereum landscape. 
 But, with minimal effort, anyone can configure it to point towards Magnolia Blockchain. 
 This allows them to enjoy years of development put into making MetaMask an indispensable tool for anyone interacting with decentralized applications.</p>
