@@ -354,25 +354,25 @@
 <h2 id="mining-in-windows">Mining in Windows</h2>
 <p>You can download the miner at the following link:</p>
 <ul>
-<li>Miner for windows</li>
+<li>https://github.com/magnoliaproject/miner/releases/download/v1.0/win64-nolia-miner.zip</li>
 </ul>
 <p>After downloading the .zip file, it is necessary to unzip it, obtaining a folder named NOLIA-miner.</p>
-<p>Inside it, edit the file NOLIAMINER.bat (right click / Edit) and replace the following values:</p>
+<p>Inside it, edit the file start.cmd (right click / Edit) and replace the following values:</p>
 <ul>
 <li>YOUR_ADDRESS: Here you will have to indicate the address of your wallet, for example 0x0fa10b766aD2F40110BE9ed1fEFdbcD2bDdB432F.</li>
 <li>THREADS: Here you must indicate the number of simultaneous threads that the miner will launch, for example 4.</li>
 </ul>
 <p>image</p>
-<p>Save the changes and close it. Now, just doubleclick over NOLIAMINER.bat to start mining.</p>
+<p>Save the changes and close it. Now, just doubleclick over start.cmd to start mining.</p>
 <p>The miner can also be executed from the command line, passing as arguments the wallet address and number of threads:</p>
 <pre><code>miner.exe 0x0fa10b766aD2F40110BE9ed1fEFdbdbcD2bDdB432F 4
 </code></pre>
 <h2 id="mining-in-linux">Mining in Linux</h2>
 <p>Open a terminal and download the software:</p>
-<pre><code>wget https://github.com/magnoliaproject/nolia-miner/.../miner-linux.tar.gz
+<pre><code>wget https://github.com/magnoliaproject/miner/releases/download/v1.0/linux64-nolia-miner.tar.gz
 </code></pre>
 <p>Unzip the downloaded file:</p>
-<pre><code>tar xvfj miner-linux.tar.gz
+<pre><code>tar xvfj linux64-nolia-miner.tar.gz
 </code></pre>
 <p>Launch the miner, passing as arguments the wallet address and number of threads:</p>
 <pre><code>./miner 0x0fa10b766aD2F40110BE9ed1fEFdbdbcD2bDdB432F 4
