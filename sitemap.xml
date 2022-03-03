@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://magnoliaproject.github.io/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnoliaproject.github.io/bridge/</loc>
+         <lastmod>2022-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnoliaproject.github.io/metamask/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnoliaproject.github.io/mining/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnoliaproject.github.io/roadmap/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnoliaproject.github.io/whitepaper/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
